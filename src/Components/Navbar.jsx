@@ -20,6 +20,13 @@ class Navbar extends React.Component {
                     alt=""
                     onClick={this.openNav}
                 />
+                <ul className="navbar-desk-menu">
+                   <li>Biz kimiz?</li>
+                   <li>Nasıl çalışır?</li>
+                   <li>Gönüllü ol!</li>
+                   <li>Sorun bildir</li>
+                   <li>Davet et</li>
+                </ul>
             </div>
         );
     }

@@ -7,5 +7,5 @@
     text-decoration: none;
 }
 
-@import "scss/variables", "scss/header", "scss/navbar", "scss/bizkimiz",
-    "scss/navigation", "scss/nasilcalisiyor";
+@import "scss/_normalize", "scss/variables", "scss/navbar", "scss/header", "scss/bizkimiz",
+    "scss/navigation", "scss/nasilcalisiyor", "scss/_media-queries";

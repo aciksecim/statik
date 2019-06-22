@@ -1,11 +1,15 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 4rem;
     border-bottom: 0.25rem solid $birincil;
     .navbar__logo {
         height: 2rem;
         margin-left: 1rem;
+    }
+    .navbar-desk-menu{
+        display: none;
     }
 }
 
