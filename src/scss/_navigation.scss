@@ -7,7 +7,7 @@
     visibility: hidden;
     opacity: 0;
     z-index: 998;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     transition: 0.2s;
 }
 
@@ -17,17 +17,31 @@
         height: 100vh;
         top: 0;
         right: 0;
+        display: flex;
+        flex-direction: column;
         position: fixed;
         z-index: 999;
         background: $gri;
         transition: 0.25s;
         .navigation__top {
+            display: flex;
+            align-items: center;
             background: white;
             height: 4rem;
-            line-height: 4rem;
             width: 100%;
-            input {
-                margin-left: 1rem;
+        }
+        ul {
+            li {
+                margin-left: auto;
+            }
+        }
+        .badges--nav {
+            margin-top: auto;
+            margin-left: calc(40vw - 1rem);
+
+            .badge-ios,
+            .badge-play {
+                width: 35vw;
             }
         }
     }
