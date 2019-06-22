@@ -7,5 +7,11 @@
     text-decoration: none;
 }
 
-@import "scss/_normalize", "scss/variables", "scss/navbar", "scss/header", "scss/bizkimiz",
-    "scss/navigation", "scss/nasilcalisiyor", "scss/_media-queries";
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap");
+
+@import "scss/_normalize", "scss/global", "scss/variables", "scss/header", "scss/navbar",
+    "scss/bizkimiz", "scss/navigation", "scss/nasilcalisiyor", "scss/_media-queries";

@@ -1,13 +1,24 @@
-header {
-    height: calc(100vh - 4.25rem);
+.header {
+    height: calc(100vh - 6.25rem);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 1rem;
     color: white;
-    background: url("assets/header_back.png") no-repeat center;
+    background: url("assets/header_back.jpg") no-repeat center;
     background-size: cover;
-    h1 {
+    .header__heading {
+        margin-top: auto;
         text-align: center;
         width: 80vw;
     }
+    .badges--header {
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.arrow {
+    height: 1rem;
 }
