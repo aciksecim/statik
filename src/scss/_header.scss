@@ -1,0 +1,13 @@
+header {
+    height: calc(100vh - 4.25rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("assets/header_back.png") no-repeat center;
+    background-size: cover;
+    h1 {
+        text-align: center;
+        width: 80vw;
+    }
+}

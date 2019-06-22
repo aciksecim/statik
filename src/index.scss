@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import "scss/variables", "scss/header", "scss/navbar", "scss/bizkimiz",
+    "scss/navigation", "scss/nasilcalisiyor";

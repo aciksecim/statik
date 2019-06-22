@@ -1,0 +1,29 @@
+.biz-kimiz {
+    display: flex;
+    flex-direction: column;
+    * {
+        text-align: center;
+    }
+    .biz-kimiz__subhead {
+        color: $birincil;
+        font-style: italic;
+        padding-top: 1rem;
+    }
+    .biz-kimiz__main-header {
+        color: $ikincil;
+        padding: 1.5rem;
+        border-bottom: 0.25rem solid $gri;
+    }
+    .biz-kimiz__paragraph {
+        padding: 1rem 1.5rem;
+        font-style: italic;
+    }
+    .biz-kimiz__paragraph--lp {
+        padding-top: 0;
+    }
+    .biz-kimiz__hrule {
+        align-self: center;
+        width: 80vw;
+        border-bottom: 0.15rem solid $gri;
+    }
+}
