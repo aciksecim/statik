@@ -15,10 +15,10 @@ class Header extends React.Component {
                     Seçim sonuçlarını hep birlikte takip edelim!
                 </h1>
                 <div className="badges badges--header">
-                    <a class="badges__ios" href="">
+                    <a class="badges__ios" href="#">
                         <img class="badge-ios" src={iOSBadge} alt="App Store" />
                     </a>
-                    <a class="badges__ios" href="">
+                    <a class="badges__ios" href="#">
                         <img
                             class="badge-play"
                             src={PlayBadge}
