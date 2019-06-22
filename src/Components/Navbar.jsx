@@ -4,7 +4,7 @@ import NavButton from "../assets/nav_switch.svg";
 
 class Navbar extends React.Component {
     openNav = () => {
-        document.querySelector(".navigation__sidebar").style.width = "60vw";
+        document.querySelector(".navigation__sidebar").style.width = "75vw";
         document.querySelector(".back-dim").style.visibility = "visible";
         document.querySelector(".back-dim").style.opacity = 1;
     };

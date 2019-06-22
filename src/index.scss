@@ -7,5 +7,11 @@
     text-decoration: none;
 }
 
-@import "scss/variables", "scss/header", "scss/navbar", "scss/bizkimiz",
-    "scss/navigation", "scss/nasilcalisiyor";
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap");
+
+@import "scss/global", "scss/variables", "scss/header", "scss/navbar",
+    "scss/bizkimiz", "scss/navigation", "scss/nasilcalisiyor";
