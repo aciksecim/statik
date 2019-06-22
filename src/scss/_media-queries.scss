@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .nav-button{
         display: none;
     }
@@ -6,19 +6,18 @@
         
         .navbar-desk-menu{
             display: flex;
-
+            font-size: calc(12px + (17 - 12) * ((100vw - 600px) / (1800 - 600)));
         }
         .navbar-desk-menu li{
-            margin: 1rem 2rem 1rem;
-            
+            margin: calc(.4rem + (18 - 0.4) * ((100vw - 600px) / (1800 - 600)));            
         }
-        
     }
-    
 }
 
-@media only screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {}
 
-@media only screen and (min-width: 992px) {} 
+@media screen and (min-width: 992px) {} 
 
-@media only screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
+
